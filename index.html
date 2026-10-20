@@ -1111,7 +1111,7 @@
           <div class="ledger-degree">M.Tech, Computer Science &amp; Engineering</div>
           <div class="ledger-inst">Specialization: Artificial Intelligence &amp; Software Engineering · Cochin University of Science and Technology (CUSAT)</div>
           <p class="education-focus">Focus areas: Artificial Intelligence, Machine Learning, Software Engineering, Deep Learning, and Computer Science.</p>
-          <span class="ledger-gpa">GPA 8.56 / 10</span>
+          <span class="ledger-gpa">GPA 8.48 / 10</span>
         </div>
       </div>
       <div class="ledger-entry">
@@ -1171,6 +1171,8 @@
 
     <div class="project-list reveal">
 
+      
+
       <button type="button" class="project-row project-trigger" data-project="cba-gan">
         <div class="project-number">01</div>
         <div class="project-content">
@@ -1186,6 +1188,17 @@
         <div class="project-number">02</div>
         <div class="project-content">
           <div class="project-title-line">
+            <h3>AI-Driven Autonomous Code Review and Bug-Fixing Using Large Language Models</h3>
+            <span class="project-arrow">↗</span>
+          </div>
+          <p>An AI-powered code review system that uses LLMs and static analysis to detect bugs, identify security vulnerabilities, and automatically generate code fixes. It validates modifications through automated testing and iterative debugging while preserving the original code.</p>
+        </div>
+      </button>
+
+        <button type="button" class="project-row project-trigger" data-project="qr-cuisine">
+        <div class="project-number">03</div>
+        <div class="project-content">
+          <div class="project-title-line">
             <h3>QR Cuisine — Automated Food Ordering System</h3>
             <span class="project-arrow">↗</span>
           </div>
@@ -1194,7 +1207,7 @@
       </button>
 
       <button type="button" class="project-row project-trigger" data-project="ai-yogi">
-        <div class="project-number">03</div>
+        <div class="project-number">04</div>
         <div class="project-content">
           <div class="project-title-line">
             <h3>AI Yogi — Yoga Pose Correction System</h3>
@@ -1205,7 +1218,7 @@
       </button>
 
       <button type="button" class="project-row project-trigger" data-project="fake-currency">
-        <div class="project-number">04</div>
+        <div class="project-number">05</div>
         <div class="project-content">
           <div class="project-title-line">
             <h3>Fake Currency Detection System</h3>
@@ -1216,7 +1229,7 @@
       </button>
 
       <button type="button" class="project-row project-trigger" data-project="tourism-management">
-        <div class="project-number">05</div>
+        <div class="project-number">06</div>
         <div class="project-content">
           <div class="project-title-line">
             <h3>Tourism Management System</h3>
@@ -1359,8 +1372,21 @@
       outcome: "Developed a functional photo-to-cartoon translation system. The research paper titled “Photo to Cartoon Translation Using a Dual-Path Generator GAN with Attention-Based Feature Learning” was accepted for CVIP 2026 and is scheduled for presentation."
     },
 
-    "qr-cuisine": {
+    
+    "ai-code-review": {
       number: "02",
+      title: "AI-Driven Autonomous Code Review and Bug-Fixing Using Large Language Models",
+      intro: "LLM-powered code analysis and automated bug-fixing system with iterative debugging and test validation.",
+      problem: "Manually identifying bugs, security vulnerabilities, and logical errors in complex programs can be time-consuming and error-prone.",
+      solution: "Developing an AI-driven system that analyzes non-trivial Python programs, identifies potential defects, generates code fixes, and validates modifications through automated testing.",
+      features: "Automated bug detection, code quality analysis, LLM-based fix generation, test case generation, code diff visualization, iterative debugging, and fix validation.",
+      technologies: "Python, FastAPI, React.js, Large Language Models, LangGraph, Python AST, Ruff, Bandit, pytest, Docker.",
+      challenges: "Generating reliable fixes, minimizing unintended code changes, handling failed tests, and safely executing untrusted code in an isolated environment.",
+      outcome: "Building an autonomous code review and repair system that generates proposed fixes, evaluates them through testing, and provides detailed reports for developer review."
+    },
+
+    "qr-cuisine": {
+      number: "03",
       title: "QR Cuisine — Automated Food Ordering System",
       intro: "A QR-based restaurant ordering platform connecting digital menus, customer orders, payments, and kitchen management.",
       problem: "Manual restaurant ordering can create delays and inefficient communication between customers, restaurant staff, and the kitchen.",
@@ -1371,7 +1397,7 @@
     },
 
     "ai-yogi": {
-      number: "03",
+      number: "04",
       title: "AI Yogi — Yoga Pose Correction System",
       intro: "A computer-vision and machine-learning system that detects yoga poses and provides feedback on posture and alignment.",
       problem: "People practicing yoga without a trainer may struggle to identify incorrect posture and alignment.",
@@ -1383,7 +1409,7 @@
     },
 
     "fake-currency": {
-      number: "04",
+      number: "05",
       title: "Fake Currency Detection System",
       intro: "A machine-learning system that analyzes currency images to classify notes as genuine or counterfeit.",
       problem: "Subtle differences between genuine and counterfeit notes can make manual verification difficult and error-prone.",
@@ -1395,7 +1421,7 @@
     },
 
     "tourism-management": {
-      number: "05",
+      number: "06",
       title: "Tourism Management System",
       intro: "A Java and MySQL application for managing tourism packages, customer records, bookings, and related data.",
       problem: "Manual management of tourism packages and bookings can be inefficient and makes records harder to organize and analyze.",
